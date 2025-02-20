@@ -52,7 +52,7 @@ pipenv shell
 The CLI allows you to run object detection on a **single image**.
 
 ```bash
-python cmd_interface.py --image_path input_images/cars.png --output_path output_images/random.png --model_path object_detection_retina.onnx --output_csv_path first_csv.csv
+python cmd_interface.py --image_path cars.png --output_path random.png --model_path object_detection_retina.onnx --output_csv_path first_csv.csv
 ```
 
 ## Running the Flask-ML Server
