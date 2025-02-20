@@ -43,6 +43,10 @@ I use `pipenv` .
 ```
 pipenv shell
 ```
+Install the dependencies using the following command:
+```
+pip install -r requirements.txt
+```
 
 ## Using the CLI Tool
 
