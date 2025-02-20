@@ -19,7 +19,7 @@ This project provides an object detection system using ONNX models (RetinaNet). 
 I use the **[image_object_detection](https://github.com/Shreneken/image_object_detection) repository** to export the ONNX model. Follow instructions on README.md to get the model running. Configure [Rescue Box Desktop](https://github.com/UMass-Rescue/RescueBox-Desktop/releases) to work with the repo using flask_ml==0.2.5. 
 
 
-Set a breakpoint at Line 27, right before the `def predict` in the `initialize` in `detection_model.py` by adding the following line: `import pdb; pdb.set_trace()`. Send a request to the backend again using the same inputs from the RescueBox Desktop application. The breakpoint will be triggered in the backend. Run the following python code to export the ONNX model. 
+Set a breakpoint at Line 27, right before the `def predict` in the `initialize` in `detection_model.py` by adding the following line: `import pdb; pdb.set_trace()`. Send a request to the backend again using the same inputs from the RescueBox Desktop application. The breakpoint will be triggered in the backend. Run the following python code to export the ONNX model(https://drive.google.com/drive/folders/0ADDnIwVBJ46iUk9PVA?dmr=1&ec=wgc-drive-hero-goto). 
 
 ```bash
 import torch
